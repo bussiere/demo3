@@ -340,7 +340,9 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	}]
 });
 
-$.get("http://localhost:8000/netflix-stock-price.csv", getDataPointsFromCSV);
+
+// toto 
+$.get("https://bussiere.github.io/demo3/UiLoki/netflix-stock-price.csv", getDataPointsFromCSV);
 
 function getDataPointsFromCSV(csv) {
 	var csvLines = points = [];
